@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Zork I",
+        "disk": "ZORK1.DAT"
+    },
+    {
+        "name": "Zork II",
+        "disk": "zork_2.z5"
+    },
+    {
+        "name": "Zork III",
+        "disk": "zork_3.z5"
+    },
+    {
+        "name": "Hitchhiker's Guide to the Galaxy",
+        "disk": "hhgg.z5"
+    },
+    {
+        "name": "Enchanter",
+        "disk": "enchanter.z5"
+    }
+]

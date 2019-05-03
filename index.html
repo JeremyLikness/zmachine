@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Z-Machine in the Browser</title>
+        <script src="./wasm_exec.js"></script>
+        <script src="./zork.js"></script>
+        <style>
+            body {
+                background: #887ecb;
+                color: #887ecb;
+                font-size: 30px;
+                font-weight: bold;
+                padding: 5px;
+                font-family: consolas, sans-serif
+            }
+            #console {
+                height: 600px;
+                width: 670px;
+                background: #50459b;
+                overflow-y: scroll;
+                padding: 5px;
+                margin-bottom: 20px;
+                border: solid 1px gray;
+            }
+            #loader {
+                color: #181090
+            }
+            #inp {
+                width: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="loader">Browsing disks...</div>
+        <div id="console">
+        <p>&nbsp;&nbsp;&nbsp;&nbsp; **** COMMODORE 64 BASIC V2 ****
+        <p>&nbsp;64K RAM SYSTEM  38811 BASIC BYTES FREE
+        <p>READY.
+        </div>
+        <div id="input">
+            <input id="inp" disabled type="text"/>
+            <button id="btnGo" disabled>EXEC</button>
+        </div>
+    </body>
+</html>
